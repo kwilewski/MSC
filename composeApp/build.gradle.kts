@@ -52,6 +52,7 @@ kotlin {
             implementation(libs.navigation.compose)
 
             implementation(libs.kotlinx.serialization.json)
+            implementation(libs.commons.math3)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
